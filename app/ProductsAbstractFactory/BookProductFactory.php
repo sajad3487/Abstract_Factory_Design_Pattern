@@ -21,4 +21,9 @@ class BookProductFactory implements ProductFactory {
         $data = $book_product->getData();
         return $this->book->createBook($data);
     }
+
+    public function getProduct($product_id)
+    {
+        return $this->book->getBook($product_id);
+    }
 }

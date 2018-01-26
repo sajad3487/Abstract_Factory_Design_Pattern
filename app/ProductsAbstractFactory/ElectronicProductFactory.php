@@ -19,4 +19,9 @@ class ElectronicProductFactory implements ProductFactory {
         $electronic_product = new ElectronicProduct($name,$price);
         return $this->electronic->createElectronic($electronic_product->getData());
     }
+
+    public function getProduct($product_id)
+    {
+        return $this->electronic->getBook($product_id);
+    }
 }

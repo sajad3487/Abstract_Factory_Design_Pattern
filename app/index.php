@@ -18,8 +18,8 @@ require_once __DIR__ . "/ProductsAbstractFactory/ElectronicProductFactory.php";
 //$my_product = $product->createProduct('Green shirt', 5);
 //var_dump($my_product);
 
-$product = new ElectronicProductFactory();
-$my_product = $product->createProduct('iphone 5', 150);
-var_dump($my_product);
+//$product = new ElectronicProductFactory();
+//$my_product = $product->createProduct('iphone 5', 150);
+//var_dump($my_product);
 
 echo "hello world";

@@ -20,4 +20,9 @@ class ClothingProductFactory implements ProductFactory {
         $cloth_product = new ClothingProduct($name,$price);
         return $this->cloth->createCloth($cloth_product->getData());
     }
+
+    public function getProduct($product_id)
+    {
+        return $this->cloth->getBook($product_id);
+    }
 }
