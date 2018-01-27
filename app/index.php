@@ -22,4 +22,4 @@ require_once __DIR__ . "/ProductsAbstractFactory/ElectronicProductFactory.php";
 //$my_product = $product->createProduct('iphone 5', 150);
 //var_dump($my_product);
 
-echo "hello world";
+echo "This is Abstract Factory Design Pattern";
